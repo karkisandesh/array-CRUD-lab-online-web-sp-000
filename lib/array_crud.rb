@@ -2,9 +2,8 @@ def create_an_empty_array
   empty = []
 end
 
-def create_an_array(four_animals, element)
+def create_an_array
   four_animals= ["dog", "cat", "rabbit", "mouse"]
-  four_animals << element
 end
 
 def add_element_to_end_of_array(array, element)
