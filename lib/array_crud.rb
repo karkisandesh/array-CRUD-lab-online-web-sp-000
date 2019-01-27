@@ -2,7 +2,7 @@ def create_an_empty_array
   empty = []
 end
 
-def create_an_array(array, element)
+def create_an_array(four_animals, element)
   four_animals= ["dog", "cat", "rabbit", "mouse"]
   four_animals << "birds"
 end
