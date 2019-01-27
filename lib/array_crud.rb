@@ -4,11 +4,12 @@ end
 
 def create_an_array(four_animals, element)
   four_animals= ["dog", "cat", "rabbit", "mouse"]
-  four_animals << "birds"
+  four_animals << element
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array()
+  array = four_animals
+  element = "birds"
 end
 
 def add_element_to_start_of_array(array, element)
