@@ -2,12 +2,13 @@ def create_an_empty_array
   empty = []
 end
 
-def create_an_array
+def create_an_array(array, element)
   four_animals= ["dog", "cat", "rabbit", "mouse"]
+  four_animals << "birds"
 end
 
 def add_element_to_end_of_array(array, element)
-  four_animals << "birds"
+  create_an_array()
 end
 
 def add_element_to_start_of_array(array, element)
